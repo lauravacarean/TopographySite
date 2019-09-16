@@ -1,0 +1,7 @@
+.drop {
+    display: flex;
+    justify-content: space-between
+}
+.row {
+    justify-content: center
+}

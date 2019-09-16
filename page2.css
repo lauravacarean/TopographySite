@@ -1,0 +1,32 @@
+.drop {
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  justify-content: center;
+  margin: 5px;
+}
+.search {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  width: 50%;
+}
+
+
+.inner{
+    position: absolute;
+    left: 25%;
+    top:15%;
+    display:none;
+}
+.btn-primary{
+    margin:5px;
+}
+.card-img-top:hover{
+    opacity: 0.5;
+}
+
+.card:hover .inner{
+    display: inline;
+} 
